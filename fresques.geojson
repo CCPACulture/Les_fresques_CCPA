@@ -424,8 +424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.349191624483119,
-          45.927926766244234
+          5.349223784783971,
+          45.92756856618898
         ]
       },
       "properties": {
@@ -634,7 +634,7 @@
         "type": "Fresques du Khrôma Festival de Tenay",
         "commune": "Tenay",
         "adresse": "Place de la mairie",
-        "artiste": "les habitants, visiteurs",
+        "artiste": "Les habitants, visiteurs",
         "annee": "2022",
         "photo": "photos/F029.jpg"
       }
@@ -930,8 +930,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.510079713114773,
-          45.91894178744158
+          5.509949167402157,
+          45.9192297913451
         ]
       },
       "properties": {
@@ -1040,8 +1040,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.332707734761823,
-          45.95604948889717
+          5.332831371318274,
+          45.95574547415262
         ]
       },
       "properties": {
@@ -1590,8 +1590,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.35340928790453,
-          45.9696078735903
+          5.353387840604987,
+          45.96957804320532
         ]
       },
       "properties": {
@@ -1803,6 +1803,28 @@
         "artiste": "Peintre itinérant allemand",
         "annee": "XVe-XVIe siècles",
         "photo": "photos/F082.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.291116244805064,
+          45.833251982235744
+        ]
+      },
+      "properties": {
+        "id": "",
+        "nom": "Fresque face à la médiathèque",
+        "accroche": " Trompe‑l’œil d’un centre‑bourg vivant et animé.",
+        "description": "La fresque représente en trompe‑l’œil un alignement de commerces et une scène de village animé avec des personnages, créant l’illusion d’un centre-bourg vivant et accueillant.",
+        "type": "Autres fresques du territoire",
+        "commune": "Saint-Vulbas",
+        "adresse": "797 rue Claires Fontaines",
+        "artiste": "Stéphane Paret",
+        "annee": "2020",
+        "photo": "photos/F083.jpg"
       }
     }
   ]

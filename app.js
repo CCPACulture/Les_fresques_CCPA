@@ -233,7 +233,7 @@ function creerPopup(p, latlng, avecPhoto) {
 
   // Affiche/cache le bloc de description complète au clic
   var descriptionComplete = "";
-  if (p.description && p.description.length > 130 && p.description !== accroche) {
+  if (p.description && p.description !== accroche) {
     descriptionComplete =
       '<button class="btn-lire-plus" onclick="' +
       "var d=this.nextElementSibling; d.style.display = d.style.display==='block' ? 'none' : 'block';" +
@@ -242,15 +242,13 @@ function creerPopup(p, latlng, avecPhoto) {
       '<div class="description-complete">' + p.description + '</div>';
   }
 
-  var lien = p.lien ? '<a href="' + p.lien + '" target="_blank" rel="noopener">En savoir plus →</a>' : "";
-
   // Lien "Itinéraire" : ouvre Google Maps avec la position actuelle du
   // visiteur comme point de départ
   var itineraire = "";
   if (latlng) {
     var destination = latlng[0] + ',' + latlng[1];
     itineraire = '<a href="https://www.google.com/maps/dir/?api=1&destination=' + destination +
-      '&travelmode=walking" target="_blank" rel="noopener"> Itinéraire</a>';
+      '&travelmode=driving" target="_blank" rel="noopener"> Itinéraire</a>';
   }
 
   return (
@@ -261,13 +259,12 @@ function creerPopup(p, latlng, avecPhoto) {
       '<p class="accroche">' + accroche + '</p>' +
       '<p class="details">' +
         '<strong>' + p.commune + '</strong>' + (p.adresse ? ' - ' + p.adresse : '') + '<br>' +
-        (p.artiste ? p.artiste + '<br>' : '') +
-        (p.annee ? p.annee : '') +
+        (p.artiste ? 'Artiste : ' + p.artiste + '<br>' : '') +
+        (p.annee ? 'Date : ' + p.annee : '') +
       '</p>' +
       descriptionComplete +
       '<div class="popup-footer">' +
         itineraire +
-        lien +
       '</div>' +
     '</div>'
   );

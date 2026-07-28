@@ -50,6 +50,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          5.346987325183868,
+          45.886133685722086
+        ]
+      },
+      "properties": {
+        "id": "",
+        "nom": "Office de tourisme de Saint-Sorlin-en-Bugey - Plaine de l'Ain Tourisme",
+        "accroche": "",
+        "description": "",
+        "type": "Point d'information touristique",
+        "commune": "Saint-Sorlin-en-Bugey",
+        "adresse": "33 rue du Port-Rond-point, en sortie de Lagnieu",
+        "artiste": "",
+        "annee": "",
+        "photo": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           5.179222528835375,
           45.9036739439165
         ]
@@ -433,7 +455,7 @@
         "nom": "Base de Loisirs du Point-Vert",
         "accroche": "",
         "description": "",
-        "type": "Site touristique",
+        "type": "Patrimoine naturel",
         "commune": "Serrières-de-Briord",
         "adresse": "chemin du point vert",
         "artiste": "",
@@ -543,7 +565,7 @@
         "nom": "Site archéologique \"Les Plantées\"",
         "accroche": "",
         "description": "",
-        "type": "Site archéologique",
+        "type": "Patrimoine naturel",
         "commune": "Briord",
         "adresse": "",
         "artiste": "",
@@ -565,7 +587,7 @@
         "nom": "Aqueduc Souterrain de Briord",
         "accroche": "",
         "description": "",
-        "type": "Site archéologique",
+        "type": "Patrimoine naturel",
         "commune": "Briord",
         "adresse": "",
         "artiste": "",
